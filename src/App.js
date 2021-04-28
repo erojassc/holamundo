@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "../../practica_02/src/views/Header";
+import Main from '../../practica_02/src/views/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola <code>Erick Rojas,</code> bienvenido a React.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Main/>
     </div>
   );
 }
